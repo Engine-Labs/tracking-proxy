@@ -1,23 +1,23 @@
-# Mixpanel Tracking Proxy
+# 🚀 Mixpanel Tracking Proxy
 
 A lightweight nginx-based HTTP proxy server that acts as an intermediary between your applications and Mixpanel's tracking API endpoints.
 
-## What it does
+## 🔄 What it does
 
 This proxy forwards tracking requests from your applications to Mixpanel while preserving client IP addresses for accurate geolocation tracking. It handles requests to:
 
-- `/lib.min.js` and `/lib.js` - Mixpanel JavaScript library files
-- `/decide` - Mixpanel's feature flag and A/B testing endpoint  
-- `/` - All other Mixpanel API endpoints (tracking, ingestion, etc.)
+- 📄 `/lib.min.js` and `/lib.js` - Mixpanel JavaScript library files
+- 🎯 `/decide` - Mixpanel's feature flag and A/B testing endpoint  
+- 🌐 `/` - All other Mixpanel API endpoints (tracking, ingestion, etc.)
 
-## Why use a proxy
+## ✨ Why use a proxy
 
-- **Client IP preservation**: Maintains accurate geolocation data in your Mixpanel events
-- **Avoid ad blockers**: Routes tracking through your own domain instead of mixpanel.com
-- **Data residency compliance**: Configurable endpoints for EU and IN data residency requirements
-- **First-party tracking**: Enables tracking from your own domain for better reliability
+- 🌍 **Client IP preservation**: Maintains accurate geolocation data in your Mixpanel events
+- 🛡️ **Avoid ad blockers**: Routes tracking through your own domain instead of mixpanel.com
+- 🏛️ **Data residency compliance**: Configurable endpoints for EU and IN data residency requirements
+- 🔗 **First-party tracking**: Enables tracking from your own domain for better reliability
 
-## Quick start
+## ⚡ Quick start
 
 Deploy with one click:
 
